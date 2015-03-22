@@ -3,6 +3,7 @@
 @import "../../src/clearfix/clearfix";
 @import "../../src/z-index/z-index";
 @import "../../src/breakpoint/breakpoint";
+@import "../../src/text-truncate/text-truncate";
 
 
 /**
@@ -75,4 +76,19 @@ p {
     @include breakpoint(large) { width: 60%; }
     @include breakpoint(medium) { width: 80%; }
     @include breakpoint(small) { width: 95%; }
+}
+
+
+/**
+ * Truncate text example
+ * ---------------------
+ */
+.truncated-a {
+    display:block;
+    @extend %text-truncate;
+}
+
+.truncated-b {
+    display: inline-block;
+    @extend %text-truncate;
 }
