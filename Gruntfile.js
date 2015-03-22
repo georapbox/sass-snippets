@@ -36,4 +36,8 @@ module.exports = function (grunt) {
         grunt.config('watch', config);
         grunt.task.run('watch');
     });
+
+    grunt.registerTask('compile', function () {
+        grunt.task.run('compass:dev');
+    });
 };
