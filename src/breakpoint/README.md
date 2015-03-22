@@ -1,4 +1,4 @@
-###[sass-snippets](/sass-snippets) > breakpoint mixin
+###[sass-snippets](../../../) > breakpoint mixin
 
 ####Example usage
 ```css
