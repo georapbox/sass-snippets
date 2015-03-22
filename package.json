@@ -1,0 +1,11 @@
+{
+  "name": "sass-snippets",
+  "version": "0.0.1",
+  "sescription": "A collection of handy SASS snippets.",
+  "author": "George Raptis <georapbox@gmail.com>",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
