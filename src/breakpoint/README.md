@@ -1,7 +1,26 @@
 ###[sass-snippets](../../../../) > breakpoint mixin
 
+####Source code
+```sass
+@mixin breakpoint($point) {
+    @if $point == large {
+        @media (min-width: 64.375em) {
+            @content;
+        }
+    } @else if $point == medium {
+        @media (min-width: 50em) {
+            @content;
+        }
+    } @else if $point == small {
+        @media (min-width: 37.5em)  {
+            @content;
+        }
+    }
+}
+```
+
 ####Example usage
-```css
+```sass
 .page-wrap {
     width: 75%;
     @include breakpoint(large) { width: 60%; }
