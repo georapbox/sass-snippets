@@ -23,7 +23,7 @@ $z-index: (
 ```
 
 ####Example usage
-```css
+```sass
 .modal {
     @include z-index(modal);
 }
