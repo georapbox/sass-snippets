@@ -1,7 +1,7 @@
 ###[sass-snippets](../../../../) > z-index mixin
 
 ####Source code
-```css
+```sass
 /* $z-index SASS maps with some dummy data */
 $z-index: (
     modal: 200,
