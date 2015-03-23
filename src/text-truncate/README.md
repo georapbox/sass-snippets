@@ -1,7 +1,16 @@
 ###[sass-snippets](../../../../) > text-truncate placeholder
 
+####Source code
+```sass
+%text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+```
+
 ####Example usage
-```css
+```sass
 .truncated-a {
     display:block;
     @extend %text-truncate;
