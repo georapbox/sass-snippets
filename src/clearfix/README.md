@@ -1,7 +1,21 @@
 ###[sass-snippets](../../../../) > clearfix mixin
 
+####Source code
+```sass
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+```
+
 ####Example usage
-```css
+```sass
 .section {
     @include clearfix();
 }

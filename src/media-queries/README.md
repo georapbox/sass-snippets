@@ -46,7 +46,7 @@ $desktop-width: 1024px;
 ```
 
 ####Example usage
-```css
+```sass
 p {
     @include desktop {
         font-size: 16px;
